@@ -7,4 +7,60 @@
         android:layout_height="match_parent"
         tools:context=".ResultActivity">
 
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="687dp" app:srcCompat="@drawable/background"
+            android:id="@+id/imageViewBackground"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:contentDescription="@string/main_background"/>
+    <Button
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:id="@+id/buttonTryAgain" android:background="@drawable/my_shape"
+            android:textColor="@color/colorPrimary"
+            android:onClick="buttonProcessing"
+            android:textAlignment="center" android:textSize="24sp"
+            tools:text="@string/button_try_again"
+            android:text="@string/button_try_again"
+            android:textAllCaps="false" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="20dp" app:layout_constraintBottom_toTopOf="@+id/buttonExit"/>
+    <Button
+            android:text="@string/button_exit"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:id="@+id/buttonExit" android:background="@drawable/my_shape"
+            android:textColor="@color/colorPrimary" android:onClick="buttonProcessing"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:textAlignment="center" android:textSize="24sp"
+            tools:text="@string/button_exit"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            android:layout_marginBottom="29dp"
+    />
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="136dp" app:srcCompat="@drawable/pedestal"
+            android:id="@+id/imageViewPedestal" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginBottom="40dp" app:layout_constraintBottom_toTopOf="@+id/buttonTryAgain"
+            android:contentDescription="@string/pedestal"/>
+    <TextView
+            android:text="@string/congratulations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" tools:text="@string/congratulations"
+            android:textSize="40sp" android:layout_marginTop="30dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@color/colorHeadline"/>
+    <TextView
+            android:text="@string/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewResult" android:textSize="150sp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" android:layout_marginTop="17dp"
+            android:textColor="@color/colorHeadline" tools:text="@string/result"/>
 </android.support.constraint.ConstraintLayout>

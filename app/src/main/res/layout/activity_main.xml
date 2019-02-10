@@ -18,7 +18,7 @@
             android:layout_height="84dp" app:srcCompat="@drawable/quiz_time"
             android:id="@+id/imageViewLogo" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="80dp" app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="72dp" app:layout_constraintHorizontal_bias="0.0"
             android:contentDescription="@string/logo"/>
     <Button
             android:layout_width="380dp"
@@ -28,9 +28,9 @@
             android:onClick="buttonProcessing"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" android:textAlignment="center" android:textSize="24sp"
-            android:fontFamily="@font/Roboto-Regular" tools:text="@string/button_begin"
+            tools:text="@string/button_begin"
             android:text="@string/button_begin"
-            android:layout_marginTop="90dp"
+            android:layout_marginTop="72dp"
             app:layout_constraintTop_toBottomOf="@+id/imageViewLogo" app:layout_constraintHorizontal_bias="0.508"
             android:textAllCaps="false"/>
     <Button
@@ -40,7 +40,7 @@
             android:id="@+id/buttonExit" android:background="@drawable/my_shape"
             android:textColor="@color/colorPrimary" android:onClick="buttonProcessing"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
-            android:textAlignment="center" android:textSize="24sp" android:fontFamily="@font/Roboto-Regular"
+            android:textAlignment="center" android:textSize="24sp"
             tools:text="@string/button_exit"
             app:layout_constraintTop_toBottomOf="@+id/buttonBegin"
             app:layout_constraintHorizontal_bias="0.508"

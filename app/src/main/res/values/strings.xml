@@ -3,6 +3,7 @@
     <string name="main_background">main_ackground</string>
     <string name="logo">logo</string>
     <string name="button_begin">Начать</string>
+    <string name="button_try_again">Заново</string>
     <string name="button_exit">Выход</string>
     <string name="question_pic">question_pic</string>
     <string name="check_box_background">check_box_background</string>
@@ -18,4 +19,7 @@
     <string name="answer31">-25pts чел</string>
     <string name="answer32">Фридрих Ницше</string>
     <string name="answer33">Дядя Богдан</string>
+    <string name="pedestal">pedestal</string>
+    <string name="congratulations">Превосходно!</string>
+    <string name="result">R</string>
 </resources>

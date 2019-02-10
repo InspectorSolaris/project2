@@ -4,6 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import kotlinx.android.synthetic.main.activity_question3.*
 
 class Question1Activity : AppCompatActivity() {
 
@@ -13,6 +14,10 @@ class Question1Activity : AppCompatActivity() {
     }
 
     fun buttonProcessing(view: View){
-        startActivity(Intent(this, Question2Activity::class.java))
+        val actualScore = if(view.id == R.id.checkBoxQ11) 1 else 0
+        val nextIntent = Intent(this, Question2Activity::class.java)
+
+        nextIntent.putExtra(Question2Activity.actualScore, actualScore)
+        startActivity(nextIntent)
     }
 }
