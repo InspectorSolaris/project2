@@ -12,13 +12,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun buttonBegin(view: View){
-        val nextIntent = Intent(this, Question1Activity::class.java)
-        startActivity(nextIntent)
-    }
-
-    fun buttonExit(view: View){
-        finish()
-        moveTaskToBack(true)
+    fun buttonProcessing(view: View){
+        if(view.id == R.id.buttonBegin){
+            startActivity(Intent(this, Question1Activity::class.java))
+        }
+        else{
+            finish()
+            moveTaskToBack(true)
+        }
     }
 }

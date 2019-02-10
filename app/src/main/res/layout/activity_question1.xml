@@ -36,6 +36,7 @@
             android:layout_marginTop="60dp" app:layout_constraintTop_toBottomOf="@+id/imageViewQuestionPic"
             android:contentDescription="@string/check_box_background"/>
     <CheckBox
+            android:onClick="buttonProcessing"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:buttonTint="@color/colorPrimary"
@@ -57,6 +58,7 @@
             android:contentDescription="@string/check_box_background" android:layout_marginTop="20dp"
             app:layout_constraintTop_toBottomOf="@+id/checkBoxQ11"/>
     <CheckBox
+            android:onClick="buttonProcessing"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:buttonTint="@color/colorPrimary"
@@ -79,6 +81,7 @@
             android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/checkBoxQ12"
     />
     <CheckBox
+            android:onClick="buttonProcessing"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:buttonTint="@color/colorPrimary"
