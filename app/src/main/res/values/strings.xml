@@ -1,7 +1,21 @@
 <resources>
     <string name="app_name">project2</string>
-    <string name="background">background</string>
-    <string name="logo">quiztime</string>
-    <string name="begin">begin</string>
-    <string name="exit">exit</string>
+    <string name="main_background">main_ackground</string>
+    <string name="logo">logo</string>
+    <string name="button_begin">Начать</string>
+    <string name="button_exit">Выход</string>
+    <string name="question_pic">question_pic</string>
+    <string name="check_box_background">check_box_background</string>
+    <string name="question1">Riddle me this</string>
+    <string name="answer11">Riddle me that</string>
+    <string name="answer12">Who is afraid</string>
+    <string name="answer13">Of the big black</string>
+    <string name="question2">Как зовут этого стримера?</string>
+    <string name="answer21">Stray228</string>
+    <string name="answer22">Усатая крыса</string>
+    <string name="answer23">Олег-павершот</string>
+    <string name="question3">Чьи это усы?</string>
+    <string name="answer31">-25pts чел</string>
+    <string name="answer32">Фридрих Ницше</string>
+    <string name="answer33">Дядя Богдан</string>
 </resources>
