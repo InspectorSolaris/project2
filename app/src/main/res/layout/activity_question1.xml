@@ -37,8 +37,8 @@
             android:contentDescription="@string/check_box_background"/>
     <CheckBox
             android:onClick="buttonProcessing"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="30dp"
             android:buttonTint="@color/colorPrimary"
             android:text="@string/answer11"
             android:layout_width="350dp"
@@ -49,7 +49,7 @@
             app:layout_constraintStart_toStartOf="@+id/imageViewCheckBoxBG1"
             app:layout_constraintEnd_toEndOf="@+id/imageViewCheckBoxBG1"
             tools:text="@string/answer11"
-            android:textColor="@color/colorPrimary"/>
+            android:textColor="@color/colorPrimary" android:textAlignment="center"/>
     <ImageView
             android:layout_width="380dp"
             android:layout_height="61dp" app:srcCompat="@drawable/my_shape"
@@ -59,8 +59,8 @@
             app:layout_constraintTop_toBottomOf="@+id/checkBoxQ11"/>
     <CheckBox
             android:onClick="buttonProcessing"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="30dp"
             android:buttonTint="@color/colorPrimary"
             android:text="@string/answer12"
             android:layout_width="350dp"
@@ -70,7 +70,8 @@
             app:layout_constraintStart_toStartOf="@+id/imageViewCheckBoxBG2"
             app:layout_constraintEnd_toEndOf="@+id/imageViewCheckBoxBG2"
             app:layout_constraintTop_toTopOf="@+id/imageViewCheckBoxBG2"
-            app:layout_constraintBottom_toBottomOf="@+id/imageViewCheckBoxBG2" android:textColor="@color/colorPrimary"/>
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewCheckBoxBG2" android:textColor="@color/colorPrimary"
+            android:textAlignment="center"/>
     <ImageView
             android:layout_width="380dp"
             android:layout_height="61dp" app:srcCompat="@drawable/my_shape"
@@ -81,8 +82,8 @@
     />
     <CheckBox
             android:onClick="buttonProcessing"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="30dp"
             android:buttonTint="@color/colorPrimary"
             android:text="@string/answer13"
             android:layout_width="350dp"
@@ -93,5 +94,5 @@
             app:layout_constraintEnd_toEndOf="@+id/imageViewCheckBoxBG3"
             app:layout_constraintTop_toTopOf="@+id/imageViewCheckBoxBG3"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewCheckBoxBG3" android:textColor="@color/colorPrimary"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false" android:textAlignment="center"/>
 </android.support.constraint.ConstraintLayout>
